@@ -1,8 +1,8 @@
 # Solucion analitica
 
-[equation](http://www.sciweavers.org/tex2img.php?eq=%28%20%5Cmu%20%20x%20D%20%2B%20%20%20%5Crho%20%20%2A%20U%20%2A%20F%29%20%2A%20%20%5CDelta%20L%20%2A%20U&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+[equation](http://www.sciweavers.org/tex2img.php?eq=%28+%5Cmu++x+D+%2B+++%5Crho++%2A+U+%2A+F%29+%2A++%5CDelta+L+%2A+U&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
-[equation](http://www.sciweavers.org/tex2img.php?eq=%28%200.000003774%20%2A%201643133150%20%2B%20.2%20%2A%20894.3699319%20%29%20%2A%205x10%5E%7B-5%7D%2A.2%20%3D%200%2C063800585&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+[equation](http://www.sciweavers.org/tex2img.php?eq=%28+0.000003774+%2A+1643133150+%2B+.2+%2A+894.3699319+%29+%2A+5x10%5E%7B-5%7D%2A.2+%3D+0%2C063800585&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
 # Comparación
 
