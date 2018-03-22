@@ -1,0 +1,39 @@
+FoamFile
+{
+    version         2.0;
+    format          ascii;
+
+    instance        "system";
+    local           "";
+
+    class           dictionary;
+    object          funkySetFieldsDict;
+}
+
+expressions
+(
+	createDarcy
+	{
+		field D;
+		expression "tensor(0, 0, 0, 0, 0, 0, 0, 0, 0)";
+    }
+	setDarcy
+	{
+		field D;
+		create false;
+		expression "3283133150*(pos().x+2.5e-5) * tensor(1, 0, 0, 0, 1, 0, 0, 0, 1)";
+		condition "(pos().x)*(pos().x)<2.5e-5*2.5e-5";
+	}
+	createForchheimer
+	{
+		field F;
+		expression "tensor(0, 0, 0, 0, 0, 0, 0, 0, 0)";
+    }
+	setForchheimer
+	{
+		field F;
+		create false;
+		expression "1800*(pos().x+2.5e-5) * tensor(1, 0, 0, 0, 1, 0, 0, 0, 1)";
+		condition "(pos().x)*(pos().x)<2.5e-5*2.5e-5";
+	}
+);
